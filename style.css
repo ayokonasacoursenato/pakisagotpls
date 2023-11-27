@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    user-select: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 5px 15px;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 30px;
+    transition: background-color 0.3s linear, color 0.4s linear;
+}
+
+button:hover{
+    color: bisque;
+    background-color: black;
+}
+
+#yes_popup{
+    display: none;
+    position: absolute;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: floralwhite;
+    margin: 20px;
+}
+
+@media (max-width: 550px){
+    h1{
+        font-size: 20px;
+    }
+}
